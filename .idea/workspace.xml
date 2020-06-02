@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc96e92a-604d-4927-8c62-ed5eb78826fd" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/redis-sentinel/target/" />
+    <ignored path="$PROJECT_DIR$/spi-test/target/" />
+    <ignored path="$PROJECT_DIR$/spi-demo/target/" />
+    <ignored path="$PROJECT_DIR$/demo-spi/target/" />
+    <ignored path="$PROJECT_DIR$/demo-sp/target/" />
+    <ignored path="$PROJECT_DIR$/sss/target/" />
+    <ignored path="$PROJECT_DIR$/spi/target/" />
+    <ignored path="$PROJECT_DIR$/lock/target/" />
+    <ignored path="$PROJECT_DIR$/xxccxcxc/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/RedisLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/controller/CacheController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/service/OrdinaryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-sentinel/src/test/java/com/example/redissentinel/RedisSentinelApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/MyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/AppleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/DistributedLockFilterWapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/AbstractLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>le</find>
+      <find>GenericObjectPoolConfig</find>
+      <find>RedisClusterClient</find>
+      <find>loadPartitions</find>
+      <find>LoadPartitions</find>
+      <find>NotNull</find>
+      <find>rundash</find>
+      <find>boolean</find>
+      <find>conf</find>
+      <find>DistributedLock</find>
+      <find>DistributedLockA</find>
+      <find>DistributedLockAspect</find>
+      <find>com.101tec</find>
+      <find>fulusms</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spi/src/main/java/com/test/spi/MainTest.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/MysqlLock.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/resources/unlock.lua" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/FileUtils.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/test/Childrencs.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/test/Parentcs.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/MyRedisLock.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/DistributedLock.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/RedisLock.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/RedisLockAspect.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/DistributedLockFilter.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/ReentrantDistributedLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/config/RedisConfiguration.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/config/LockContext.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/ILockManager.java" />
+        <option value="$PROJECT_DIR$/lock/pom.xml" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/model/UserInfo.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/dao/SimpleDao.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/ReentrantDistributedLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/DistributedLockFilter.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/cons/Constants.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/bean/LockKey.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/resources/unlock.lua" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/annotation/DistributedLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/util/TransferUtils.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/config/TempConfig.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/config/BaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/LockManager.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/aspect/DistributedLockAspect.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/service/OrdinaryService.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/service/CacheService.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/RedisLockManager.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/manager/ZookeeperLockManager.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/RedisSentinelApplication.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/controller/CacheController.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/service/CacheService.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/service/OrdinaryService.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/util/FileUtils.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/condition/ZkCondition.java" />
+        <option value="$PROJECT_DIR$/redis-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-sentinel/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/RedisLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/ZookeeperLock.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/DistributedLockStatisWapper.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/LockApplication.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/controller/CacheController.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spi/src/main/java/com/test/spi/Javatest.java" />
+        <option value="$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/AbstractLock.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.6.1\conf\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lock" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lock" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="redis-sentinel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="redis-sentinel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="wapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myproject\demos\spi-test\src\main" />
+      <recent name="F:\myproject\demos\spi-test\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.lock.core.api.wapper" />
+      <recent name="com.test.lock.core" />
+      <recent name="com.test.lock.core.bean" />
+      <recent name="com.test.lock.core.api" />
+      <recent name="com.test.lock.core.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myproject\demos\lock\src\main\resources" />
+      <recent name="F:\myproject\demos\lock\src\main\java\com\test\lock\test" />
+      <recent name="F:\myproject\demos\lock\src\main\java\com\test\lock\util" />
+      <recent name="F:\myproject\demos\lock\src\main\java\com\test\lock\core\manager\config" />
+      <recent name="F:\myproject\demos\lock\src\main\java\com\test\lock\core\manager" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.19945355" />
+  </component>
+  <component name="RunManager" selected="Application.Javatest">
+    <configuration name="Childrencs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.redissentinel.test.Childrencs" />
+      <module name="redis-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.redissentinel.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.redissentinel.lock.FileUtils" />
+      <module name="redis-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.redissentinel.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Javatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.spi.Javatest" />
+      <module name="spi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperLockManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.lock.core.manager.ZookeeperLockManager" />
+      <module name="lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.lock.core.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.lock.LockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisSentinelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-sentinel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redissentinel.RedisSentinelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Javatest" />
+        <item itemvalue="Spring Boot.LockApplication" />
+        <item itemvalue="Application.ZookeeperLockManager" />
+        <item itemvalue="Application.FileUtils" />
+        <item itemvalue="Application.Childrencs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc96e92a-604d-4927-8c62-ed5eb78826fd" name="Default Changelist" comment="" />
+      <created>1577259695068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577259695068</updated>
+      <workItem from="1577259699235" duration="16865000" />
+      <workItem from="1577361430852" duration="22116000" />
+      <workItem from="1577686443493" duration="598000" />
+      <workItem from="1577773941919" duration="9595000" />
+      <workItem from="1577931721300" duration="7208000" />
+      <workItem from="1578107937704" duration="599000" />
+      <workItem from="1578109041507" duration="4878000" />
+      <workItem from="1578127449323" duration="6072000" />
+      <workItem from="1578375999574" duration="13424000" />
+      <workItem from="1578536072078" duration="17191000" />
+      <workItem from="1578620979635" duration="6984000" />
+      <workItem from="1578984256837" duration="27000" />
+      <workItem from="1578991420342" duration="6341000" />
+      <workItem from="1579009506244" duration="1228000" />
+      <workItem from="1579053551274" duration="3625000" />
+      <workItem from="1579139112008" duration="22882000" />
+      <workItem from="1579179940800" duration="7112000" />
+      <workItem from="1579227221356" duration="20341000" />
+      <workItem from="1579312264510" duration="1950000" />
+      <workItem from="1579489340507" duration="1506000" />
+      <workItem from="1580784871837" duration="4077000" />
+      <workItem from="1582815573270" duration="600000" />
+      <workItem from="1589540699299" duration="1278000" />
+      <workItem from="1589602283065" duration="607000" />
+      <workItem from="1590719222038" duration="608000" />
+      <workItem from="1590977517956" duration="1898000" />
+      <workItem from="1591062606998" duration="633000" />
+      <workItem from="1591065984145" duration="432000" />
+      <workItem from="1591084936346" duration="776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 19h 44m 01s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 02m 38s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 03m 26s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 05m 52s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 16m 36s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 17m 17s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.25 at 21h 19m 53s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.27 at 13h 52m 23s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.27 at 13h 52m 33s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisSentinelApplicationTests_contextLoads - 2019.12.27 at 13h 52m 56s.xml">
+      <configuration name="RedisSentinelApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="181451000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48775056" visible="true" weight="0.24262735" />
+      <window_info id="Structure" order="1" sideWeight="0.51224947" side_tool="true" weight="0.21447721" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.4115983" />
+      <window_info anchor="bottom" id="LuaCheck" order="16" weight="0.32956153" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Word Book" order="4" side_tool="true" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis-sentinel/src/test/java/com/example/redissentinel/RedisSentinelApplicationTests.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/core/DefaultValueOperations.class</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spi-demo/src/main/java/com/test/spi/MainTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/MainTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/test/Parentcs.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/core/script/DefaultScriptExecutor.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceScriptingCommands.class</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/core/script/DefaultScriptExecutor.class</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE.jar!/org/springframework/data/redis/core/script/DefaultScriptExecutor.class</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/lock/RedisLockAspect.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/RedisLock.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/aspect/DistributedLockAspect.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/service/CacheService.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/ZookeeperLock.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/aspect/DistributedLockAspect.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/util/FileUtils.class</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/util/FileUtils.class</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/LockApplication.class</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>552</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/LockApplication.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/LockApplication.class</url>
+          <line>21</line>
+          <properties field="connecting" class="com.test.lock.LockApplication" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>beanFactory.getBeanNamesForType(LockManager.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.test.lock.core.manager.LockManager</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanFactory.getBeanNamesForType()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.test.lock.core.manager.LockManager</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanFactory.getBean(LockManager.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.test.lock.core.manager.LockManager</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanFactory.getBean(LockManager.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.junit.platform.engine.support.hierarchical.LockManager</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>zkClient()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ZkClient(&quot;192.168.43.112:2181&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.test.lock.LockApplication,org.I0Itec.zkclient.ZkClient</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>beanFactory.getBean(LockApplication.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.test.lock.LockApplication</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getBeansOfType(LockManager.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>readJar(fileName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lock/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/core/annotation/DistributedLock.class" />
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/controller/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/service/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/service/OrdinaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/resources/unlock.lua" />
+    <entry file="file://$PROJECT_DIR$/lock/src/main/resources/unlock.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/core/manager/config/RedisConfiguration.class" />
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/util/FileUtils.class" />
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/core/api/RedisLock.class" />
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/aspect/DistributedLockAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE-sources.jar!/org/springframework/data/redis/core/script/DefaultScriptExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/util/TransferUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/util/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/util/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/META-INF/spring.factories" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar!/META-INF/MANIFEST.MF" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnClass.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisOperations.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnProperty.java" />
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/java/com/example/redissentinel/RedisSentinelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class" />
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/PropertySourcesPropertyResolver.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/AbstractPropertyResolver.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/LockManager.class" />
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/condition/ZkCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/LockApplication.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" />
+    <entry file="jar://$PROJECT_DIR$/lock/target/lock-1.0-SNAPSHOT.jar!/com/test/lock/aspect/DistributedLockAspect.class" />
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/DistributedLockStatisWapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/LockApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/Javatest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/ZookeeperLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/controller/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/test/service/OrdinaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-sentinel/src/test/java/com/example/redissentinel/RedisSentinelApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/MyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/AppleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spi/src/main/java/com/test/spi/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/wapper/DistributedLockFilterWapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/AbstractLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lock/src/main/java/com/test/lock/core/api/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lock</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-core:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

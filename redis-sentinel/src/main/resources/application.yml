@@ -1,0 +1,31 @@
+server:
+  port: 8100
+  tomcat:
+    uri-encoding: UTF-8
+    accept-count: 1000
+    max-threads: 1000
+    max-connections: 2000
+spring:
+  application:
+    name: demo
+  redis:
+#    cluster:
+#      nodes: 192.168.43.112:6379,192.168.43.112:6380,192.168.43.112:6381
+#      max-redirects: 3
+    lettuce:
+      pool:
+        max-active: 8
+#        max-idle:
+        max-wait: 2000ms # 连接池最大阻塞等待时间（使用负值表示没有限制）
+    host: 192.168.43.112
+    port: 6379
+#        min-idle:
+#        time-between-eviction-runs:
+#      shutdown-timeout:
+
+#  data:
+#    mongodb:
+#      #      格式：uri=mongodb://username:password@ip:port/database
+#      uri: mongodb://192.168.43.111:30051,192.168.43.111:30052,192.168.43.111:30053/heye
+zookeeper:
+  host: 192.168.43.112:2181
