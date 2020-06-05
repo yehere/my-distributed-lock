@@ -33,13 +33,13 @@ zookeeper:
 
 ## 1.2 使用方式：
 ### 1.2.1 注解方式(推荐，默认有key生成规则，也可自己指定）
-、、、
+```
 @DistributedLock
 public xxx xxxmethod(xxx x){
 	xxx
 	...
 }
-、、、
+```
 
 ### 1.2.2 直接调用api
 ```java
