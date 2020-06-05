@@ -8,23 +8,23 @@
 # 1.使用
 ## 1.1：添加pom依赖：
 `
-<dependency>
-    <groupId>com.github.13872095752</groupId>
-    <artifactId>compotent-lock</artifactId>
-    <version>1.0.0-RELEASE</version>
-</dependency>
+<dependency>  
+    <groupId>com.github.13872095752</groupId>  
+    <artifactId>compotent-lock</artifactId>  
+    <version>1.0.0-RELEASE</version>  
+</dependency>  
 `
 如果没有redis依赖需要加上下面的依赖：  
-`<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-redis</artifactId>
-    <version>2.2.3.RELEASE</version>
-</dependency>`
+`<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-data-redis</artifactId>  
+    <version>2.2.3.RELEASE</version>  
+</dependency>`  
 
 使用redis方式，正常redis连接配置  
 使用zk方式需要在配置文件加入：  
-`zookeeper:
-  host: ip:port`
+`zookeeper:  
+  host: ip:port`  
 
 
 ## 1.2 使用方式：
