@@ -1,4 +1,4 @@
-# my-distributed-lock
+# 介绍
 分布式锁组件
 项目下面那个lock包就是分布式锁的组件源码  
 实现方式：这里提供了redis和zookeeper两种实现方式  
